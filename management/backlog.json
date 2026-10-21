@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-21",
+  "status": "prepared locally; not created in YouTrack",
+  "date_note": "Dates after 24 October are proposed internal targets",
+  "tasks": [
+    {
+      "local_key": "PLAN01",
+      "summary": "Confirm team identities supervisor and access",
+      "priority": "Critical",
+      "due_date": "2026-10-22",
+      "proposed_responsible": "Both students",
+      "outcome": "Verified project identities and review route",
+      "acceptance_criteria": [
+        "Confirm which student owns gTurboflex and each individual account",
+        "Record supervisor name and account",
+        "Confirm role split; invite nobody until authorized"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN02",
+      "summary": "Conduct and document 3 to 5 user discussions",
+      "priority": "Critical",
+      "due_date": "2026-10-22",
+      "proposed_responsible": "Сайлаубек Жангир",
+      "outcome": "Anonymized evidence informing requirements",
+      "acceptance_criteria": [
+        "At least 3 substantive discussions with relevant users",
+        "Record actual dates and consent handling",
+        "Link observations to changed or confirmed requirements"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN03",
+      "summary": "Review scientific sources and comparison evidence",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Есентемиров Ергун",
+      "outcome": "Critical literature and technology rationale",
+      "acceptance_criteria": [
+        "At least 12 used sources including 8 scientific publications",
+        "Verify accessible full texts and record remaining access limits",
+        "Maintain 3 systems x 8 criteria and 4 technology decisions"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN04",
+      "summary": "Validate proposal scope and requirements",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Both students",
+      "outcome": "Agreed MVP and testable initial specification",
+      "acceptance_criteria": [
+        "Confirm included/excluded features and camera",
+        "Review each Must criterion and metric target",
+        "Record team and supervisor changes in a PR"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN05",
+      "summary": "Review architecture and editable diagrams",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Есентемиров Ергун",
+      "outcome": "Consistent context use case and component diagrams",
+      "acceptance_criteria": [
+        "All three diagrams have editable sources and readable exports",
+        "Align actors components and requirements",
+        "Review threading model fallback and EAS limits"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN06",
+      "summary": "Walk through UX and reference controller prototype",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Сайлаубек Жангир",
+      "outcome": "Demonstrable preparation mining adaptation and extraction scenarios",
+      "acceptance_criteria": [
+        "Mockup works offline",
+        "Reference model tests and integrity check pass",
+        "Record prototype limitations and walkthrough findings"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN07",
+      "summary": "Obtain supervisor review and revise materials",
+      "priority": "Critical",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Both students",
+      "outcome": "Actual supervisor feedback with responses",
+      "acceptance_criteria": [
+        "Record substantive comments and date",
+        "Link resulting revisions and remaining decisions",
+        "Do not claim approval without actual evidence"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN08",
+      "summary": "Complete traceability and checkpoint submission",
+      "priority": "Critical",
+      "due_date": "2026-10-24",
+      "proposed_responsible": "Both students",
+      "outcome": "Reviewed and traceable submission snapshot",
+      "acceptance_criteria": [
+        "Create real assigned prioritized YouTrack tasks",
+        "Both students make substantive individual contributions and cross-review",
+        "Provide authorized committee access",
+        "Create pre-defense-1 tag after review and record hash"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN09",
+      "summary": "Collect pilot traces and compare style classifiers",
+      "priority": "High",
+      "due_date": "2026-11-20",
+      "proposed_responsible": "Есентемиров Ергун",
+      "outcome": "Participant-separated model evaluation",
+      "acceptance_criteria": [
+        "Validate feature and label schemas",
+        "Compare tree forest kNN majority and rules",
+        "Report macro-F1 confusion matrix latency and limitations",
+        "Export selected model with parity fixtures"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN10",
+      "summary": "Implement Unity vertical slice and bounded adaptation",
+      "priority": "High",
+      "due_date": "2026-11-06",
+      "proposed_responsible": "Сайлаубек Жангир",
+      "outcome": "Playable small mining encounter",
+      "acceptance_criteria": [
+        "Pin Unity/package versions",
+        "Implement start mine combat extraction and seeded route",
+        "Integrate queue boundary updates and static fallback",
+        "Supply setup and run instructions"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    },
+    {
+      "local_key": "PLAN11",
+      "summary": "Measure performance and conduct approved pilot",
+      "priority": "High",
+      "due_date": "2026-12-18",
+      "proposed_responsible": "Both students",
+      "outcome": "Reproducible comparison with honest uncertainty",
+      "acceptance_criteria": [
+        "Obtain required study approvals before recruitment",
+        "Counterbalance three modes and archive configuration",
+        "Report performance experience and paired results",
+        "Separate pilot findings from general claims"
+      ],
+      "state": "Open",
+      "youtrack_id": null,
+      "assignee_account": null
+    }
+  ]
+}
