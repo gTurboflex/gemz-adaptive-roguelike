@@ -35,11 +35,11 @@ The split requires team confirmation. GitHub account **gTurboflex** belongs to *
 | Feature leakage inflates results | Medium / high | Group by participant; separate test set and train-only preprocessing | Shared participant IDs across splits / ML lead |
 | Inference or logging causes stalls | Medium / high | Bounded queue, snapshots, fallback and profiler measurements | p95 overhead >1 ms / ML lead |
 | Supervisor review unavailable before deadline | Medium / high | Request review early; retain actual comments and unresolved decisions | No review by 23 Oct / both |
-| No personal YouTrack workspace | Present / medium | Prepare task package; register a free instance or use an existing authorized one | Cannot create a project / repository owner |
+| Second student not yet connected to YouTrack | Present / medium | Keep owner as coordinator; record delivery lead separately; reassign after authorized access | Individual account unavailable / repository owner |
 | Untraceable individual contributions | Present / high | Individual accounts and substantive reviewed changes; no fabricated history | Missing student-specific evidence / both |
 
 ## Workflow
 
-Create one real YouTrack task per meaningful deliverable with assignee, priority, deadline and acceptance criteria. Replace local PLAN keys with issued IDs; use the real ID in branch and commit/PR descriptions. Link the PR or commit back to the task. Another team member reviews before merging. The supervisor reviews selected significant decisions at agreed checkpoints.
+The dedicated YouTrack project now contains GEMZ-1 through GEMZ-11, all assigned to the owner-controlled account admin for coordination, with priorities, deadlines and acceptance criteria. Historical PLAN keys are mapped to issued IDs in management/backlog.json. Use real IDs in subsequent branch and commit/PR descriptions. Link the PR or commit back to the task. Another team member reviews before merging. The supervisor reviews selected significant decisions at agreed checkpoints.
 
 `main` begins with repository initialization. The initial materials are submitted on a branch for review. An open PR is not approval. Do not mark user interviews or supervisor feedback complete merely because a form exists. Use `pre-defense-1`, `pre-defense-2`, and `final-pre-defense` for the actual reviewed submission snapshots, never as retroactive evidence of reviews.

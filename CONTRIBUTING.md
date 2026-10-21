@@ -9,6 +9,6 @@ Use your own student GitHub account and an identifiable commit author. Do not sh
 5. Another team member reviews before merge. Record substantive feedback and resulting revisions; do not invent review comments.
 6. Mark the task complete only after its actual acceptance criteria pass. Tag a submission only after the agreed review.
 
-Until a personal YouTrack project exists, local PLAN keys describe preparation only. They must be replaced by issued IDs before claiming traceability compliance. No repository invitations or supervisor messages are authorized at present.
+The dedicated YouTrack project contains GEMZ-1 through GEMZ-11. See management/youtrack-setup.md for issued IDs and the historical PLAN mapping. All tasks are currently assigned to the owner-controlled admin account for coordination; delivery ownership will be reassigned after individual accounts are connected. No repository invitations or supervisor messages are authorized at present.
 
 Keep secrets and raw participant records out of Git. Commit configuration examples with placeholder values. Student-created content and borrowed assets must include appropriate attribution and usage rights. No open-source license is granted by default for this private diploma repository.

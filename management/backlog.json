@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created": "2026-10-21",
-  "status": "prepared locally; not created in YouTrack",
+  "status": "created in dedicated YouTrack; all tasks remain To do",
   "date_note": "Dates after 24 October are proposed internal targets",
   "tasks": [
     {
@@ -16,13 +16,18 @@
         "Record supervisor name and account",
         "Confirm role split; invite nobody until authorized"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null,
+      "state": "To do",
+      "youtrack_id": "GEMZ-1",
+      "assignee_account": "admin",
       "confirmed_facts": [
         "gTurboflex belongs to Yessentemirov Yergun, SE-2418",
         "Supervisor is Aigerim Bakiyeva"
-      ]
+      ],
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-1/Confirm-team-identities-supervisor-and-access",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN02",
@@ -36,9 +41,14 @@
         "Record actual dates and consent handling",
         "Link observations to changed or confirmed requirements"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-2",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-2/Conduct-and-document-3-to-5-user-discussions",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN03",
@@ -52,9 +62,14 @@
         "Verify accessible full texts and record remaining access limits",
         "Maintain 3 systems x 8 criteria and 4 technology decisions"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-3",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-3/Review-scientific-sources-and-comparison-evidence",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN04",
@@ -68,9 +83,14 @@
         "Review each Must criterion and metric target",
         "Record team and supervisor changes in a PR"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-4",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-4/Validate-proposal-scope-and-requirements",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN05",
@@ -84,9 +104,14 @@
         "Align actors components and requirements",
         "Review threading model fallback and EAS limits"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-5",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-5/Review-architecture-and-editable-diagrams",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN06",
@@ -100,9 +125,14 @@
         "Reference model tests and integrity check pass",
         "Record prototype limitations and walkthrough findings"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-6",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-6/Walk-through-UX-and-reference-controller-prototype",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN07",
@@ -116,9 +146,14 @@
         "Link resulting revisions and remaining decisions",
         "Do not claim approval without actual evidence"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-7",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-7/Obtain-supervisor-review-and-revise-materials",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN08",
@@ -133,9 +168,14 @@
         "Provide authorized committee access",
         "Create pre-defense-1 tag after review and record hash"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-8",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-8/Complete-traceability-and-checkpoint-submission",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN09",
@@ -150,9 +190,14 @@
         "Report macro-F1 confusion matrix latency and limitations",
         "Export selected model with parity fixtures"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-9",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-9/Collect-pilot-traces-and-compare-style-classifiers",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN10",
@@ -167,9 +212,14 @@
         "Integrate queue boundary updates and static fallback",
         "Supply setup and run instructions"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-10",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-10/Implement-Unity-vertical-slice-and-bounded-adaptation",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     },
     {
       "local_key": "PLAN11",
@@ -184,9 +234,14 @@
         "Report performance experience and paired results",
         "Separate pilot findings from general claims"
       ],
-      "state": "Open",
-      "youtrack_id": null,
-      "assignee_account": null
+      "state": "To do",
+      "youtrack_id": "GEMZ-11",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-11/Measure-performance-and-conduct-approved-pilot",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/1"
     }
   ],
   "confirmed_identities": {
@@ -195,6 +250,19 @@
       "student": "Yessentemirov Yergun",
       "group": "SE-2418"
     },
-    "supervisor": "Aigerim Bakiyeva"
+    "supervisor": "Aigerim Bakiyeva",
+    "youtrack_owner": {
+      "account": "admin",
+      "student": "Yessentemirov Yergun",
+      "role": "accountable coordinator"
+    }
+  },
+  "project_url": "https://gemz-diploma.youtrack.cloud/projects/GEMZ",
+  "issues_url": "https://gemz-diploma.youtrack.cloud/issues/GEMZ",
+  "board_url": "https://gemz-diploma.youtrack.cloud/agiles/204-1/218-1",
+  "assignment_note": "admin is the owner-controlled workspace account and accountable coordinator, Yessentemirov Yergun, SE-2418. Proposed delivery leads remain separate; the second student has not been invited.",
+  "priority_mapping": {
+    "Critical": "Critical / Критическая",
+    "High": "Major / Серьезная"
   }
 }

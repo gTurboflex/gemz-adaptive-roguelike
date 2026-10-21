@@ -15,7 +15,7 @@ Fixed enemy behavior can become predictable, while aggressive difficulty changes
 | Сайлаубек Жангир | SE-2429 | Gameplay loop, Unity scenes, enemy state machines and UX |
 | Yessentemirov Yergun | SE-2418 | Telemetry, profiling, EAS controller and evaluation tooling |
 
-The responsibility split is a planning proposal for team confirmation. Repository owner **gTurboflex** is **Yessentemirov Yergun, SE-2418**, confirmed by the owner. Supervisor: **Aigerim Bakiyeva**. The second student’s official Latin spelling and individual account, the supervisor’s account, and the new YouTrack account mapping remain to be confirmed. No invitations have been sent.
+The responsibility split is a planning proposal for team confirmation. Repository owner **gTurboflex** is **Yessentemirov Yergun, SE-2418**, confirmed by the owner. Supervisor: **Aigerim Bakiyeva**. The owner controls the new YouTrack workspace account `admin`, used as the accountable coordinator. The second student’s official Latin spelling and individual account, and the supervisor’s account remain to be confirmed. No invitations have been sent.
 
 ## Scope and current status
 
@@ -45,7 +45,7 @@ Planned game stack: Unity 6 / C#, URP and stylized low-poly materials. Exact edi
 12. [Data dictionary](docs/12-data-dictionary.md)
 13. [Architecture decision records](docs/adr/decisions.md)
 
-[YouTrack setup status and task package](management/youtrack-setup.md): the owner has submitted a dedicated workspace registration; email activation and the project URL are pending. The currently signed-in `youtrack.jetbrains.com` account belongs to JetBrains' public tracker; it is not a personal project workspace. Prepared tasks are in [backlog.json](management/backlog.json). Local PLAN identifiers are not issued YouTrack IDs.
+[YouTrack project](https://gemz-diploma.youtrack.cloud/projects/GEMZ) · [Task list](https://gemz-diploma.youtrack.cloud/issues/GEMZ) · [Task board](https://gemz-diploma.youtrack.cloud/agiles/204-1/218-1). Eleven actual tasks, **GEMZ-1 through GEMZ-11**, have priorities, due dates, acceptance criteria and a PR link. All are assigned to the owner’s workspace account `admin` for coordination; proposed delivery leads are recorded separately until the second student joins. No task is marked complete. See [setup and assignment notes](management/youtrack-setup.md) and [the linked backlog](management/backlog.json). Historical PLAN keys are retained only as preparation references.
 
 ## Run and check what exists
 
