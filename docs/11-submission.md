@@ -5,7 +5,7 @@ This package supports the replacement for the first pre-defense. It is not yet a
 | University requirement | Artifact or evidence | Current status |
 |---|---|---|
 | Proposal and scope | 01-proposal.md | Draft prepared; supervisor/topic approval pending |
-| Team, responsibilities, supervisor | README and 08-management.md | Students supplied; roles proposed; supervisor/account mapping pending |
+| Team, responsibilities, supervisor | README and 08-management.md | Students and supervisor Aigerim Bakiyeva supplied; gTurboflex mapped to Yessentemirov Yergun; roles and remaining accounts pending |
 | Relevance evidence | 09-user-evidence.md | Protocol ready; 3–5 real discussions missing |
 | At least 12 used sources, including 8 scientific publications | 02-literature-review.md and comparisons | 19 registered sources including 8 core scientific publications; initial review partly abstract-based |
 | Three to five systems and six to ten criteria | 03-existing-systems.md | Three systems, eight criteria; ND correctly distinguished from absence |
@@ -22,7 +22,7 @@ This package supports the replacement for the first pre-defense. It is not yet a
 
 ## Actions before submission
 
-1. Confirm supervisor and account mappings, team responsibilities and the correct Latin spelling if required.
+1. Confirm the second student’s account and Latin spelling, the supervisor’s account and review arrangements, and team responsibilities. Supervisor Aigerim Bakiyeva and gTurboflex → Yessentemirov Yergun are already confirmed.
 2. Establish the dedicated YouTrack project, create and assign the prepared tasks, then replace temporary PLAN keys with real IDs and links.
 3. Hold at least three real discussions and revise the requirements based on evidence.
 4. Each student contributes substantive revisions using their own account. Another student reviews each relevant PR.

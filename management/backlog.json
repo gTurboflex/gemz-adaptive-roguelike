@@ -18,7 +18,11 @@
       ],
       "state": "Open",
       "youtrack_id": null,
-      "assignee_account": null
+      "assignee_account": null,
+      "confirmed_facts": [
+        "gTurboflex belongs to Yessentemirov Yergun, SE-2418",
+        "Supervisor is Aigerim Bakiyeva"
+      ]
     },
     {
       "local_key": "PLAN02",
@@ -41,7 +45,7 @@
       "summary": "Review scientific sources and comparison evidence",
       "priority": "High",
       "due_date": "2026-10-23",
-      "proposed_responsible": "Есентемиров Ергун",
+      "proposed_responsible": "Yessentemirov Yergun",
       "outcome": "Critical literature and technology rationale",
       "acceptance_criteria": [
         "At least 12 used sources including 8 scientific publications",
@@ -73,7 +77,7 @@
       "summary": "Review architecture and editable diagrams",
       "priority": "High",
       "due_date": "2026-10-23",
-      "proposed_responsible": "Есентемиров Ергун",
+      "proposed_responsible": "Yessentemirov Yergun",
       "outcome": "Consistent context use case and component diagrams",
       "acceptance_criteria": [
         "All three diagrams have editable sources and readable exports",
@@ -138,7 +142,7 @@
       "summary": "Collect pilot traces and compare style classifiers",
       "priority": "High",
       "due_date": "2026-11-20",
-      "proposed_responsible": "Есентемиров Ергун",
+      "proposed_responsible": "Yessentemirov Yergun",
       "outcome": "Participant-separated model evaluation",
       "acceptance_criteria": [
         "Validate feature and label schemas",
@@ -184,5 +188,13 @@
       "youtrack_id": null,
       "assignee_account": null
     }
-  ]
+  ],
+  "confirmed_identities": {
+    "github_owner": {
+      "account": "gTurboflex",
+      "student": "Yessentemirov Yergun",
+      "group": "SE-2418"
+    },
+    "supervisor": "Aigerim Bakiyeva"
+  }
 }

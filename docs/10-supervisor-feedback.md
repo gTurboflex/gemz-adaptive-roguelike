@@ -1,6 +1,6 @@
 # Supervisor review and response record
 
-**Review status: not received.** Supervisor name, account and contact route have not been supplied. No approval, signature or meeting is implied. This record is prepared for an actual review of the linked deliverables.
+**Review status: not received.** Supervisor: **Aigerim Bakiyeva**, supplied by the project owner. Her account and contact route have not been supplied. No approval, signature or meeting is implied. This record is prepared for an actual review of the linked deliverables.
 
 ## Review package
 

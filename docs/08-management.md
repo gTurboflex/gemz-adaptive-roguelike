@@ -6,11 +6,11 @@ The immediate milestone is the materials checkpoint on **24 October 2026**. Date
 
 | Area | Proposed lead | Reviewer |
 |---|---|---|
-| Gameplay, UX, cave route, enemy state machines | Сайлаубек Жангир, SE-2429 | Есентемиров Ергун |
-| Telemetry, profiles, controller, ML evaluation | Есентемиров Ергун, SE-2418 | Сайлаубек Жангир |
-| Literature, requirements, experiments and thesis | Both students | Supervisor, identity pending |
+| Gameplay, UX, cave route, enemy state machines | Сайлаубек Жангир, SE-2429 | Yessentemirov Yergun |
+| Telemetry, profiles, controller, ML evaluation | Yessentemirov Yergun, SE-2418 | Сайлаубек Жангир |
+| Literature, requirements, experiments and thesis | Both students | Aigerim Bakiyeva |
 
-The split requires team confirmation. GitHub owner gTurboflex is known; student-to-account mapping is not confirmed. Do not attribute assisted initial commits to independent student work. Each student must submit substantive changes through their own account and explain them at the checkpoint.
+The split requires team confirmation. GitHub account **gTurboflex** belongs to **Yessentemirov Yergun, SE-2418**. Supervisor: **Aigerim Bakiyeva**. The second student’s and supervisor’s account details remain pending. Do not attribute assisted initial commits to independent student work. Each student must submit substantive changes through their own account and explain them at the checkpoint.
 
 ## Milestones
 
@@ -18,7 +18,7 @@ The split requires team confirmation. GitHub owner gTurboflex is known; student-
 |---|---|---|
 | 21 Oct | Initial repository and reviewable materials package | Requirements document and project concept |
 | 22 Oct | Three to five real user discussions and revised assumptions | Participant availability; approved recording approach |
-| 23 Oct | Team review, supervisor comments and corrections | Supervisor identity/availability; account access |
+| 23 Oct | Team review, supervisor comments and corrections | Aigerim Bakiyeva’s availability; account access |
 | 24 Oct | Reviewed checkpoint snapshot and submission summary | Dedicated YouTrack, accepted materials and access for committee |
 | 6 Nov, proposed | Unity vertical slice and deterministic controller replay | Editor version and minimal assets |
 | 20 Nov, proposed | Labeled pilot dataset and model comparison | Consent/approval, playable slice and feature validation |

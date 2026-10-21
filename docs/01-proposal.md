@@ -4,7 +4,7 @@
 
 Design and Evaluation of a Player Profiling and Bounded Enemy Adaptation System in a 3D Roguelike Game
 
-Working game title: **GEMZ**. Students: Сайлаубек Жангир, SE-2429; Есентемиров Ергун, SE-2418. Supervisor: to be confirmed. Approval of the topic has not been recorded.
+Working game title: **GEMZ**. Students: Сайлаубек Жангир, SE-2429; Yessentemirov Yergun, SE-2418. Supervisor: **Aigerim Bakiyeva**. Approval of the topic has not been recorded.
 
 ## Problem statement and relevance
 
@@ -55,4 +55,4 @@ Out of scope: online co-op, autonomous squad companions, an open galaxy, realist
 
 ## Assumptions requiring agreement
 
-The team must confirm its responsibility split, camera perspective, supervisor, study recruitment route, target test hardware and final diploma milestones. Current date targets beyond 24 October are planning proposals. No interviews, ethics approval or supervisor endorsement are implied by this document.
+The team must confirm its responsibility split, camera perspective, supervisor review arrangements, study recruitment route, target test hardware and final diploma milestones. Current date targets beyond 24 October are planning proposals. No interviews, ethics approval or supervisor endorsement are implied by this document.

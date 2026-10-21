@@ -13,9 +13,9 @@ Fixed enemy behavior can become predictable, while aggressive difficulty changes
 | Member | Group | Proposed responsibility |
 |---|---|---|
 | Сайлаубек Жангир | SE-2429 | Gameplay loop, Unity scenes, enemy state machines and UX |
-| Есентемиров Ергун | SE-2418 | Telemetry, profiling, EAS controller and evaluation tooling |
+| Yessentemirov Yergun | SE-2418 | Telemetry, profiling, EAS controller and evaluation tooling |
 
-The responsibility split is a planning proposal for team confirmation. Names are retained in the supplied spelling; official Latin transliterations have not been supplied. Repository owner: **gTurboflex**. Mapping of individual GitHub/YouTrack accounts to the two students is pending. Supervisor name and account are pending. No invitations have been sent.
+The responsibility split is a planning proposal for team confirmation. Repository owner **gTurboflex** is **Yessentemirov Yergun, SE-2418**, confirmed by the owner. Supervisor: **Aigerim Bakiyeva**. The second student’s official Latin spelling and individual account, the supervisor’s account, and the new YouTrack account mapping remain to be confirmed. No invitations have been sent.
 
 ## Scope and current status
 
@@ -45,7 +45,7 @@ Planned game stack: Unity 6 / C#, URP and stylized low-poly materials. Exact edi
 12. [Data dictionary](docs/12-data-dictionary.md)
 13. [Architecture decision records](docs/adr/decisions.md)
 
-[YouTrack setup status and task package](management/youtrack-setup.md): a dedicated project URL is pending. The currently signed-in `youtrack.jetbrains.com` account belongs to JetBrains' public tracker; it is not a personal project workspace. Prepared tasks are in [backlog.json](management/backlog.json). Local PLAN identifiers are not issued YouTrack IDs.
+[YouTrack setup status and task package](management/youtrack-setup.md): the owner has submitted a dedicated workspace registration; email activation and the project URL are pending. The currently signed-in `youtrack.jetbrains.com` account belongs to JetBrains' public tracker; it is not a personal project workspace. Prepared tasks are in [backlog.json](management/backlog.json). Local PLAN identifiers are not issued YouTrack IDs.
 
 ## Run and check what exists
 
