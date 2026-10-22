@@ -1,0 +1,21 @@
+@startuml
+title GEMZ component draft
+component Gameplay
+component "Event Bus" as Bus
+component "Bounded worker\nQueue / features / classifier" as Worker
+component "Profile memory" as Profile
+component "Adaptation controller" as Controller
+component "Enemy AI\nState / Strategy" as Enemy
+component "Local JSONL writer" as Logs
+artifact "Offline model artifact" as Model
+Gameplay --> Bus : immutable events
+Bus --> Worker
+Worker --> Profile : prediction
+Profile --> Controller
+Bus --> Controller : progression snapshot
+Bus --> Logs : event snapshots
+Controller --> Enemy : next encounter decision
+Enemy --> Gameplay : applied next encounter
+Controller --> Logs : audit
+Model --> Worker : versioned tree and schema
+@enduml

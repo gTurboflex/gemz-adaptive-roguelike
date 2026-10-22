@@ -1,0 +1,33 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+*.csproj
+*.sln
+*.user
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Secrets, private study records and local logs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+data/raw/
+data/consent/
+data/participants/
+telemetry/
+*.log
+# Operating system files
+.DS_Store
+Thumbs.db

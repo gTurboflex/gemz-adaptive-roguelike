@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-21",
+  "status": "assigned to individual owner-controlled accounts; all tasks remain To do",
+  "date_note": "Dates after 24 October are proposed internal targets",
+  "tasks": [
+    {
+      "local_key": "PLAN01",
+      "summary": "Confirm team identities supervisor and access",
+      "priority": "Critical",
+      "due_date": "2026-10-22",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Verified project identities and review route",
+      "acceptance_criteria": [
+        "Confirm which student owns gTurboflex and each individual account",
+        "Record supervisor name and account",
+        "Confirm role split; invite nobody until authorized"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-1",
+      "assignee_account": "admin",
+      "confirmed_facts": [
+        "gTurboflex belongs to Yessentemirov Yergun, SE-2418",
+        "Supervisor is Aigerim Bakiyeva"
+      ],
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-1/Confirm-team-identities-supervisor-and-access",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN02",
+      "summary": "Conduct and document 3 to 5 user discussions",
+      "priority": "Critical",
+      "due_date": "2026-10-22",
+      "proposed_responsible": "Sailaubek Zhangir, SE-2429",
+      "outcome": "Anonymized evidence informing requirements",
+      "acceptance_criteria": [
+        "At least 3 substantive discussions with relevant users",
+        "Record actual dates and consent handling",
+        "Link observations to changed or confirmed requirements"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-2",
+      "assignee_account": "Zhangir",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-2/Conduct-and-document-3-to-5-user-discussions",
+      "accountable_student": "Sailaubek Zhangir, SE-2429",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN03",
+      "summary": "Review scientific sources and comparison evidence",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Critical literature and technology rationale",
+      "acceptance_criteria": [
+        "At least 12 used sources including 8 scientific publications",
+        "Verify accessible full texts and record remaining access limits",
+        "Maintain 3 systems x 8 criteria and 4 technology decisions"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-3",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-3/Review-scientific-sources-and-comparison-evidence",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN04",
+      "summary": "Validate proposal scope and requirements",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Agreed MVP and testable initial specification",
+      "acceptance_criteria": [
+        "Confirm included/excluded features and camera",
+        "Review each Must criterion and metric target",
+        "Record team and supervisor changes in a PR"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-4",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-4/Validate-proposal-scope-and-requirements",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN05",
+      "summary": "Review architecture and editable diagrams",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Consistent context use case and component diagrams",
+      "acceptance_criteria": [
+        "All three diagrams have editable sources and readable exports",
+        "Align actors components and requirements",
+        "Review threading model fallback and EAS limits"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-5",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-5/Review-architecture-and-editable-diagrams",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN06",
+      "summary": "Walk through UX and reference controller prototype",
+      "priority": "High",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Sailaubek Zhangir, SE-2429",
+      "outcome": "Demonstrable preparation mining adaptation and extraction scenarios",
+      "acceptance_criteria": [
+        "Mockup works offline",
+        "Reference model tests and integrity check pass",
+        "Record prototype limitations and walkthrough findings"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-6",
+      "assignee_account": "Zhangir",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-6/Walk-through-UX-and-reference-controller-prototype",
+      "accountable_student": "Sailaubek Zhangir, SE-2429",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN07",
+      "summary": "Obtain supervisor review and revise materials",
+      "priority": "Critical",
+      "due_date": "2026-10-23",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Actual supervisor feedback with responses",
+      "acceptance_criteria": [
+        "Record substantive comments and date",
+        "Link resulting revisions and remaining decisions",
+        "Do not claim approval without actual evidence"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-7",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-7/Obtain-supervisor-review-and-revise-materials",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN08",
+      "summary": "Complete traceability and checkpoint submission",
+      "priority": "Critical",
+      "due_date": "2026-10-24",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Reviewed and traceable submission snapshot",
+      "acceptance_criteria": [
+        "Create real assigned prioritized YouTrack tasks",
+        "Both students make substantive individual contributions and cross-review",
+        "Provide authorized committee access",
+        "Create pre-defense-1 tag after review and record hash"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-8",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-8/Complete-traceability-and-checkpoint-submission",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Critical",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN09",
+      "summary": "Collect pilot traces and compare style classifiers",
+      "priority": "High",
+      "due_date": "2026-11-20",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Participant-separated model evaluation",
+      "acceptance_criteria": [
+        "Validate feature and label schemas",
+        "Compare tree forest kNN majority and rules",
+        "Report macro-F1 confusion matrix latency and limitations",
+        "Export selected model with parity fixtures"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-9",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-9/Collect-pilot-traces-and-compare-style-classifiers",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN10",
+      "summary": "Implement Unity vertical slice and bounded adaptation",
+      "priority": "High",
+      "due_date": "2026-11-06",
+      "proposed_responsible": "Sailaubek Zhangir, SE-2429",
+      "outcome": "Playable small mining encounter",
+      "acceptance_criteria": [
+        "Pin Unity/package versions",
+        "Implement start mine combat extraction and seeded route",
+        "Integrate queue boundary updates and static fallback",
+        "Supply setup and run instructions"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-10",
+      "assignee_account": "Zhangir",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-10/Implement-Unity-vertical-slice-and-bounded-adaptation",
+      "accountable_student": "Sailaubek Zhangir, SE-2429",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    },
+    {
+      "local_key": "PLAN11",
+      "summary": "Measure performance and conduct approved pilot",
+      "priority": "High",
+      "due_date": "2026-12-18",
+      "proposed_responsible": "Yessentemirov Yergun, SE-2418",
+      "outcome": "Reproducible comparison with honest uncertainty",
+      "acceptance_criteria": [
+        "Obtain required study approvals before recruitment",
+        "Counterbalance three modes and archive configuration",
+        "Report performance experience and paired results",
+        "Separate pilot findings from general claims"
+      ],
+      "state": "To do",
+      "youtrack_id": "GEMZ-11",
+      "assignee_account": "admin",
+      "youtrack_url": "https://gemz-diploma.youtrack.cloud/issue/GEMZ-11/Measure-performance-and-conduct-approved-pilot",
+      "accountable_student": "Yessentemirov Yergun, SE-2418",
+      "youtrack_priority": "Major",
+      "youtrack_state_label": "Нужно сделать",
+      "review_url": "https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2"
+    }
+  ],
+  "confirmed_identities": {
+    "github_owner": {
+      "account": "gTurboflex",
+      "student": "Yessentemirov Yergun",
+      "group": "SE-2418"
+    },
+    "supervisor": "Aigerim Bakiyeva",
+    "youtrack_owner": {
+      "account": "admin",
+      "student": "Yessentemirov Yergun",
+      "role": "accountable coordinator"
+    },
+    "second_student": {
+      "student": "Sailaubek Zhangir",
+      "group": "SE-2429",
+      "github_account": "ynagi-1",
+      "youtrack_account": "Zhangir"
+    }
+  },
+  "project_url": "https://gemz-diploma.youtrack.cloud/projects/GEMZ",
+  "issues_url": "https://gemz-diploma.youtrack.cloud/issues/GEMZ",
+  "board_url": "https://gemz-diploma.youtrack.cloud/agiles/204-1/218-1",
+  "assignment_note": "Yergun/admin: GEMZ-1,3,4,5,7,8,9,11. Zhangir/Zhangir: GEMZ-2,6,10. Account assignment and imports are not evidence of completed acceptance criteria.",
+  "priority_mapping": {
+    "Critical": "Critical / Критическая",
+    "High": "Major / Серьезная"
+  },
+  "assignment_verified_date": "2026-10-22"
+}
