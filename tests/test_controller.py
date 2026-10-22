@@ -84,6 +84,53 @@ class ControllerContracts(unittest.TestCase):
         with self.assertRaises(ValueError):
             Controller("Impossible")
 
+    def test_stale_and_invalid_results_latch_static_fallback(self):
+        for difficulty, base in (("Easy", .85), ("Hard", 1.15)):
+            for result in ({"age_seconds": 11}, {"valid_result": False}):
+                with self.subTest(difficulty=difficulty, result=result):
+                    c = Controller(difficulty)
+                    for _ in range(100):
+                        c.update_budget(1, 900, 100, 90, 5, boundary=True)
+                        c.update_profile((1, 0, 0, 0), 5)
+                    self.assertGreater(c.eas, 1)
+                    self.assertEqual(c.specialization(**result), "Neutral")
+                    self.assertEqual(c.eas, 1)
+                    self.assertEqual(c.memory, (.25,) * 4)
+                    for _ in range(20):
+                        c.update_budget(1, 900, 100, 90, 5, boundary=True)
+                        c.update_profile((1, 0, 0, 0), 5)
+                        self.assertEqual(c.eas, 1)
+                        self.assertEqual(c.difficulty, base)
+                        self.assertEqual(c.specialization(), "Neutral")
+                        self.assertEqual(c.memory, (.25,) * 4)
+
+    def test_failure_requires_fresh_explicit_recovery(self):
+        c = Controller()
+        c.inference_failure()
+        c.update_budget(1, 900, 100, 90, 5, boundary=True)
+        self.assertEqual(c.eas, 1)
+        self.assertEqual(c.specialization(), "Neutral")
+        self.assertTrue(c.recover_inference((1, 0, 0, 0), 5, age_seconds=10))
+        self.assertEqual(c.eas, 1)
+        c.update_budget(1, 900, 100, 90, 5, boundary=False)
+        self.assertEqual(c.eas, 1)
+        c.update_budget(1, 900, 100, 90, 5, boundary=True)
+        self.assertAlmostEqual(c.eas, 1.1)
+        for _ in range(100):
+            c.update_profile((1, 0, 0, 0), 5)
+        self.assertEqual(c.specialization(), "Close")
+
+    def test_stale_or_malformed_recovery_cannot_release_fallback(self):
+        c = Controller()
+        c.inference_failure()
+        self.assertFalse(c.recover_inference((1, 0, 0, 0), 5, age_seconds=11))
+        for probabilities in ((1, 1, 0, 0), (math.nan, 0, 0, 0)):
+            with self.assertRaises(ValueError):
+                c.recover_inference(probabilities, 5)
+        c.update_budget(1, 900, 100, 90, 5, boundary=True)
+        self.assertEqual(c.eas, 1)
+        self.assertEqual(c.specialization(), "Neutral")
+
     def test_starting_difficulty_is_independent_of_style(self):
         easy, hard = Controller("Easy"), Controller("Hard")
         self.assertGreater(hard.difficulty, easy.difficulty)

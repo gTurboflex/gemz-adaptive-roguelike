@@ -15,6 +15,15 @@ def clamp(value, low, high):
     return max(low, min(high, value))
 
 
+def validated_probabilities(probabilities):
+    if len(probabilities) != 4:
+        raise ValueError("Four style probabilities required")
+    p = tuple(finite_nonnegative(x) for x in probabilities)
+    if abs(sum(p) - 1) > 1e-6:
+        raise ValueError("Probabilities must sum to one")
+    return p
+
+
 def target_eas(depth, active_seconds, total_gemz, dps):
     """Initial design coefficients; not empirically tuned."""
     values = [finite_nonnegative(x) for x in (depth, active_seconds, total_gemz, dps)]
@@ -30,6 +39,8 @@ class Controller:
     mode: str = "profile"
     eas: float = field(default=1.0, init=False)
     memory: tuple = field(default=(.25, .25, .25, .25), init=False)
+    fallback_active: bool = field(default=False, init=False)
+    fallback_reason: str | None = field(default=None, init=False)
 
     def __post_init__(self):
         if self.starting_difficulty not in ("Easy", "Hard"):
@@ -45,7 +56,7 @@ class Controller:
     def update_budget(self, depth, active_seconds, total_gemz, dps, dt, *, boundary):
         target = target_eas(depth, active_seconds, total_gemz, dps)
         step_time = min(finite_nonnegative(dt), 5)
-        if self.mode == "static":
+        if self.mode == "static" or self.fallback_active:
             self.eas = 1.0
         elif boundary:
             step = .02 * step_time
@@ -56,12 +67,8 @@ class Controller:
     def update_profile(self, probabilities, dt, *, shift=False):
         """Receive externally supplied probabilities; this method does not infer them."""
         dt = min(finite_nonnegative(dt), 5)
-        if len(probabilities) != 4:
-            raise ValueError("Four style probabilities required")
-        p = tuple(finite_nonnegative(x) for x in probabilities)
-        if abs(sum(p) - 1) > 1e-6:
-            raise ValueError("Probabilities must sum to one")
-        if self.mode == "static":
+        p = validated_probabilities(probabilities)
+        if self.mode == "static" or self.fallback_active:
             return self.memory
         # Low confidence removes specialized evidence rather than reinforcing it.
         target = p if max(p) >= .6 else (.25,) * 4
@@ -75,16 +82,33 @@ class Controller:
 
     def specialization(self, *, valid_result=True, age_seconds=0):
         age_seconds = finite_nonnegative(age_seconds)
-        if self.mode == "static" or not valid_result or age_seconds > 10:
+        if not valid_result or age_seconds > 10:
+            self.inference_failure(reason="invalid_result" if not valid_result else "stale_result")
+        if self.mode == "static" or self.fallback_active:
             return "Neutral"
         index = max(range(4), key=self.memory.__getitem__)
         if self.memory[index] < .6 or STYLES[index] == "Mixed":
             return "Neutral"
         return STYLES[index]
 
-    def inference_failure(self):
-        """Explicit static fallback in this reference model; Unity recovery is future work."""
+    def inference_failure(self, *, reason="worker_error"):
+        """Latch static fallback until a fresh result is explicitly accepted."""
+        self.fallback_active = True
+        self.fallback_reason = reason
         self.eas = 1.0
         self.memory = (.25,) * 4
+
+    def recover_inference(self, probabilities, dt, *, age_seconds=0):
+        """The caller supplies result age; only a valid result at most 10s old recovers."""
+        age_seconds = finite_nonnegative(age_seconds)
+        dt = finite_nonnegative(dt)
+        p = validated_probabilities(probabilities)
+        if age_seconds > 10:
+            self.inference_failure(reason="stale_result")
+            return False
+        self.fallback_active = False
+        self.fallback_reason = None
+        self.update_profile(p, dt)
+        return True
 
 

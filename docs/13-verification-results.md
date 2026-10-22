@@ -16,3 +16,9 @@ The tests cover bounded EAS/difficulty under extreme inputs, no in-combat budget
 Re-run the commands in the README after changing the controller. Preserve measured Unity and study results in separate reports when those systems exist.
 
 The checks above are historical observations of the original package. The UX mock-up is handed off to Zhangir for a prospective import and real walkthrough report. It is supplied in the separate handoff package; the new repository branch awaits his import. The split does not create new human evidence.
+
+## PR 2 review revision, 22 October 2026
+
+Review by ynagi-1: https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2#pullrequestreview-5617968862
+
+The review reproduced elevated EAS after a stale result and renewed budget growth immediately after an explicit failure. Three added regression tests failed against the previous implementation; the ten original tests passed. The controller now latches static fallback until explicit fresh, validated recovery. All 13 tests pass after the fix, as does the materials integrity check. New coverage checks stale/invalid results at elevated EAS on Easy and Hard, repeated budget and profile updates while fallback is latched, explicit failure followed by fresh recovery at the 10-second boundary, rejected stale/malformed recovery, and safe-boundary budget growth after recovery. This is reference-controller verification only; reviewer approval and Unity integration remain pending.
