@@ -19,7 +19,7 @@ Avoid asking whether the proposed ML system is “innovative” or whether the p
 
 ## Project-specific follow-up prompts — prepared 22 October 2026
 
-These prompts were refined with agent assistance from the proposed GEMZ requirements. They are preparation, not participant findings or evidence of a personal walkthrough by Zhangir.
+These prompts refine the proposed GEMZ requirements. They are preparation, not participant findings or evidence of a personal walkthrough by Zhangir.
 
 - FR02, mining and extraction: after explaining that the player may extract or descend, ask what they expect to keep, what they expect to risk, and what information they need before deciding. Ask for an example from a game they have played.
 - FR07/FR09, bounded adaptation: ask the participant to describe an acceptable and an unacceptable enemy response to repeated ranged or close attacks. Ask when they expect the response to take effect, without first suggesting the planned boundary rule or 25% cap.

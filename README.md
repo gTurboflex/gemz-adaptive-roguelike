@@ -19,7 +19,7 @@ The team agreed the responsibility split on 22 October 2026. Repository owner **
 
 ## Scope and current status
 
-The original package was prepared on 21 October 2026. On 22 October the owner requested a split of future imports between individual accounts. This branch includes Yergun's reviewed analysis, architecture, reference controller and tests, plus the prepared protocol, HTML mock-up and pending walkthrough checklist imported under GEMZ-2/GEMZ-6 from Zhangir's handoff. Agent-assisted preparation and controller review are recorded separately from participant evidence and browser execution. The split is pending until his PR is accepted; it does not establish independent authorship or earlier student work.
+The original package was prepared on 21 October 2026. On 22 October the owner requested a split of future imports between individual accounts. This branch includes Yergun's reviewed analysis, architecture, reference controller and tests, plus the prepared protocol, HTML mock-up and pending walkthrough checklist imported under GEMZ-2/GEMZ-6 from Zhangir's handoff. Source inspection and controller verification are recorded separately from participant evidence and browser execution. The imports do not establish earlier independent student work. PR #2 records controller review and correction; PR #3 records the protocol and mock-up import review.
 
 The draft history was reorganized on 22 October 2026 at the repository owner's request. The old release and tag are withdrawn. A new checkpoint version must be created after the individual contributions and reviews are accepted.
 

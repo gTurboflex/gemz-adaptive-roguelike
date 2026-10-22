@@ -15,10 +15,14 @@ The tests cover bounded EAS/difficulty under extreme inputs, no in-combat budget
 
 Re-run the commands in the README after changing the controller. Preserve measured Unity and study results in separate reports when those systems exist.
 
-The checks above are historical observations of the original package. The UX mock-up is handed off to Zhangir for a prospective import and real walkthrough report. It is supplied in the separate handoff package; the new repository branch awaits his import. The split does not create new human evidence.
+The checks above are historical observations of the original package. The UX mock-up and pending walkthrough checklist were imported by Zhangir in PR #3. No browser scenario is reported as executed by this import. The split does not create new human evidence.
 
 ## PR 2 review revision, 22 October 2026
 
 Review by ynagi-1: https://github.com/gTurboflex/gemz-adaptive-roguelike/pull/2#pullrequestreview-5617968862
 
-The review reproduced elevated EAS after a stale result and renewed budget growth immediately after an explicit failure. Three added regression tests failed against the previous implementation; the ten original tests passed. The controller now latches static fallback until explicit fresh, validated recovery. All 13 tests pass after the fix, as does the materials integrity check. New coverage checks stale/invalid results at elevated EAS on Easy and Hard, repeated budget and profile updates while fallback is latched, explicit failure followed by fresh recovery at the 10-second boundary, rejected stale/malformed recovery, and safe-boundary budget growth after recovery. This is reference-controller verification only; reviewer approval and Unity integration remain pending.
+The review reproduced elevated EAS after a stale result and renewed budget growth immediately after an explicit failure. Three added regression tests failed against the previous implementation; the ten original tests passed. The controller now latches static fallback until explicit fresh, validated recovery. All 13 tests pass after the fix, as does the materials integrity check. New coverage checks stale/invalid results at elevated EAS on Easy and Hard, repeated budget and profile updates while fallback is latched, explicit failure followed by fresh recovery at the 10-second boundary, rejected stale/malformed recovery, and safe-boundary budget growth after recovery. This is reference-controller verification only; ynagi-1 subsequently approved this fix and PR #2 was merged. Unity integration remains pending.
+
+## PR 3 import review, 22 October 2026
+
+Review scope: README, interview protocol, imported HTML and walkthrough checklist. The new prompts align with FR01/FR02/FR07/FR09/FR10/FR13. Source inspection confirms the documented scenario handlers; it is not browser execution. Editorial corrections repair the walkthrough title encoding and replace stale pre-import statements. All eight browser scenarios remain Not run, the interview table is unfilled, and YouTrack states are unchanged. Thirteen controller tests and the materials check pass on the reviewed branch.

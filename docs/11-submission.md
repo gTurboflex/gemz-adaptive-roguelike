@@ -7,11 +7,11 @@ This is an initial preparation package. It does not establish independent studen
 | Proposal, sources, comparisons, requirements | Drafts prepared; source full texts and requirements still need substantive review |
 | Architecture and three editable diagrams | Drafts and exports prepared; team review pending |
 | Reference controller and tests | Standalone Python reference, ten recorded passing tests; no trained model or Unity implementation |
-| User discussions | Protocol handed to Zhangir for GEMZ-2; no real evidence recorded |
-| Interactive mock-up | Mock-up supplied separately to Zhangir; his import/revision is pending under GEMZ-6 |
+| User discussions | Protocol imported by Zhangir under GEMZ-2; no real evidence recorded |
+| Interactive mock-up | Mock-up and checklist imported by Zhangir under GEMZ-6; all eight walkthrough scenarios remain Not run |
 | Team and task ownership | Both students connected; individual assignments recorded in management/backlog.json; all tasks To do |
 | Supervisor | Aigerim Bakiyeva identified; substantive comments and revisions pending |
-| Individual contribution and review | Imports separated prospectively; actual student findings and cross-review pending |
+| Individual contribution and review | Separate account imports recorded; ynagi-1 reviewed PR #2 and the fallback fix; PR #3 is the import review record. Interviews and browser findings remain pending |
 | Access | Both students have access; supervisor/committee access still needs verification |
 | Published version | Old release/tag withdrawn at the owner's request; a new accepted checkpoint version is pending |
 
