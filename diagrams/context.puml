@@ -1,0 +1,13 @@
+@startuml
+title GEMZ system context
+actor Player
+actor "Student researcher" as Researcher
+rectangle "GEMZ Unity game\nLocal gameplay and adaptation" as Game
+database "Local experiment records" as Logs
+rectangle "Offline training tools" as Train
+Player --> Game : play and feedback
+Researcher --> Game : configure and evaluate
+Game --> Logs : opt-in events and decisions
+Game --> Train : approved traces
+Train --> Game : versioned model
+@enduml

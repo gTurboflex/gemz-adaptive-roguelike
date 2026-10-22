@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+title GEMZ use cases
+actor Player
+actor "Student researcher" as Researcher
+rectangle "GEMZ game" {
+usecase "UC1 Prepare run" as UC1
+usecase "UC2 Mine and survive" as UC2
+usecase "UC3 Respond to adaptation" as UC3
+usecase "UC4 Extract" as UC4
+usecase "UC5 Configure and evaluate" as UC5
+}
+Player -- UC1
+Player -- UC2
+Player -- UC3
+Player -- UC4
+Researcher -- UC5
+@enduml

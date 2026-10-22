@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "window_seconds": 20,
+  "stride_seconds": 5,
+  "eas_min": 1.0,
+  "eas_max": 1.8,
+  "eas_slew_per_second": 0.02,
+  "difficulty_min": 0.75,
+  "difficulty_max": 2.1,
+  "base": {
+    "Easy": 0.85,
+    "Hard": 1.15
+  },
+  "weights": {
+    "depth": 0.35,
+    "time": 0.15,
+    "gemz": 0.15,
+    "dps": 0.15
+  },
+  "reference_seconds": 900,
+  "reference_gemz": 100,
+  "reference_dps": 30,
+  "confidence_min": 0.6,
+  "resistance_cap": 0.25,
+  "max_result_age_seconds": 10,
+  "event_queue_capacity": 10000
+}
