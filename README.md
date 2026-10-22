@@ -19,7 +19,7 @@ The team agreed the responsibility split on 22 October 2026. Repository owner **
 
 ## Scope and current status
 
-The original package was prepared on 21 October 2026. On 22 October the owner requested a split of future imports between individual accounts. This branch contains the materials assigned to Yergun: analysis, architecture, reference controller and tests. Zhangir's protocol and UX mock-up are supplied separately for his own inspection, revisions and commits under GEMZ-2/GEMZ-6. The split is pending until his PR is accepted; it does not establish independent authorship or earlier student work.
+The original package was prepared on 21 October 2026. On 22 October the owner requested a split of future imports between individual accounts. This branch includes Yergun's reviewed analysis, architecture, reference controller and tests, plus the prepared protocol, HTML mock-up and pending walkthrough checklist imported under GEMZ-2/GEMZ-6 from Zhangir's handoff. Agent-assisted preparation and controller review are recorded separately from participant evidence and browser execution. The split is pending until his PR is accepted; it does not establish independent authorship or earlier student work.
 
 The draft history was reorganized on 22 October 2026 at the repository owner's request. The old release and tag are withdrawn. A new checkpoint version must be created after the individual contributions and reviews are accepted.
 
@@ -41,7 +41,7 @@ Planned game stack: Unity 6 / C#, URP and stylized low-poly materials. Exact edi
 6. [Architecture and adaptation specification](docs/06-architecture.md)
 7. [Verification and evaluation](docs/07-verification.md)
 8. [Management, milestones and risks](docs/08-management.md)
-9. User discussion protocol: `docs/09-user-evidence.md`, supplied separately for Zhangir's pending GEMZ-2 PR.
+9. [User discussion protocol and unfilled evidence register](docs/09-user-evidence.md)
 10. [Supervisor review record](docs/10-supervisor-feedback.md)
 11. [Submission readiness checklist](docs/11-submission.md)
 12. [Data dictionary](docs/12-data-dictionary.md)
@@ -51,7 +51,7 @@ Planned game stack: Unity 6 / C#, URP and stylized low-poly materials. Exact edi
 
 ## Run and check what exists
 
-Zhangir's GEMZ-6 PR will supply `prototype/index.html`. It is supplied separately in his handoff package. Open the HTML in a current desktop browser; it is a simulated scenario, not Unity gameplay or measured telemetry.
+Download or clone this branch, extract the repository ZIP if needed, and open `prototype/index.html` from the repository root in a current desktop browser (for example, use File > Open in Chrome). The HTML is self-contained and needs no build step or server. Follow [the walkthrough checklist](docs/14-prototype-walkthrough.md) and record only actual results. All eight browser scenarios currently remain **Not run**, and the interview register is unfilled. The file is an imported offline scenario mock-up with simulated inputs; it is not Unity gameplay, measured telemetry or a trained classifier.
 
 From the repository root, with Python 3.10 or later:
 
@@ -67,7 +67,7 @@ The first command prints a deterministic synthetic controller demonstration. The
 
 ```text
 src/adaptation/   Executable reference model, not Unity runtime code
-prototype/        Supplied by Zhangir's pending GEMZ-6 PR
+prototype/        Imported offline HTML mock-up; browser walkthrough Not run
 docs/             Proposal, review, requirements, architecture, evaluation
 diagrams/         Editable SVG and PlantUML sources, PNG exports
 tests/            Controller contract tests
